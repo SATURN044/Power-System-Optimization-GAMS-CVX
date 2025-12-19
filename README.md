@@ -1,3 +1,11 @@
 # Power-System-Optimization-GAMS-CVX
 This solves the DC Optimal Power Flow (DCOPF) using the Simplex algorithm.
-Power System Economic Dispatch OptimizationDescriptionThis project focuses on the Economic Dispatch problem within a 3-bus power system. It compares two different mathematical modeling approaches to minimize total generation costs while satisfying power flow and transmission constraints.Problem FormulationLinear Programming (LP): Solved using GAMS. Uses a linear cost function for generators.Nonlinear Programming (NLP): Solved using MATLAB CVX. Uses quadratic cost functions $C(P) = a + bP + cP^2$ for a more realistic representation.System ConstraintsPower Balance: DC Power Flow equality constraints.Transmission Limits: Line capacity constraints (MW).Generation Limits: Min/Max generator capacity.ResultsGAMS LP Result: Optimal Value = 58.35CVX NLP Result: Optimal Value = 648.41RequirementsGAMS (General Algebraic Modeling System)MATLAB with CVX Toolbox installed.
+Power System Economic Dispatch OptimizationDescriptionThis project focuses on the Economic Dispatch problem within a 3-bus power system. It compares two different mathematical modeling approaches to minimize total generation costs while satisfying power flow and transmission constraints.Problem FormulationLinear Programming (LP): Solved using GAMS. Uses a linear cost function for generators.
+Nonlinear Programming (NLP): Solved using MATLAB CVX.Uses quadratic cost functions $C(P) = a + bP + cP^2$ for a more realistic representation.
+System Constraints:
+Power Balance:DC Power Flow equality constraints.
+Transmission Limits: Line capacity constraints (MW).
+Generation Limits: Min/Max generator capacity.
+ResultsGAMS LP Result: Optimal Value = 58.35CVX 
+NLP Result: Optimal Value = 648.41
+Requirements: GAMS (General Algebraic Modeling System)MATLAB with CVX Toolbox installed.
