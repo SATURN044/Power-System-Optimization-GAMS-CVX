@@ -65,15 +65,8 @@ Minimize the total generation cost:
 
 ### Linear Programming Formulation
 
-[
-\min ; 10x_1 + 20x_2 + 14x_3 + 15x_4
-]
+![2025-12-19_204540](https://github.com/user-attachments/assets/bafd0c0d-5f60-4f95-86bd-5797f65c83fc)
 
-Subject to:
-
-[
-Ax = b,\quad Gx \le d,\quad x_i \ge 0
-]
 
 This formulation is solved using **GAMS**.
 
@@ -81,9 +74,7 @@ This formulation is solved using **GAMS**.
 
 ### Nonlinear Programming Formulation
 
-[
-\min \sum_{i=1}^{4} \left( a_i + b_i x_i + c_i x_i^2 \right)
-]
+![2025-12-19_204630](https://github.com/user-attachments/assets/4714a9dd-adc9-40e4-8204-25364f65bfab)
 
 Subject to the same equality and inequality constraints.
 This convex quadratic optimization problem is solved using **CVX in MATLAB**.
