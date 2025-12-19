@@ -1,9 +1,3 @@
-Below is a **complete, professional, left-to-right English README.md** written specifically for your **Power Optimization project using GAMS and CVX**, based directly on the report you uploaded.
-This is **GitHub-ready**, **resume-oriented**, and suitable for **electrical power / optimization reviewers**.
-
-You can copy this **exactly** into `README.md`.
-
----
 
 # Power Generation Optimization Using GAMS and CVX
 
